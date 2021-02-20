@@ -9,11 +9,7 @@ RUN easy_install \
 	https://trac-hacks.org/svn/siteuploadplugin/trunk \
 	https://trac-hacks.org/svn/accountmanagerplugin/tags/acct_mgr-0.5.0 \
 	https://trac-hacks.org/svn/announcerplugin/trunk \
-	https://trac-hacks.org/svn/hackergotchiplugin/0.11 \
-	https://trac-hacks.org/svn/tagsplugin/trunk \
-	https://trac-hacks.org/svn/tractimedeltaupdatorplugin/0.12
-
-RUN pip install trac-emoji
+	https://trac-hacks.org/svn/tagsplugin/trunk
 
 RUN apt-get update -qq \
 	&& apt-get install -y -qq libldap2-dev libsasl2-dev libssl-dev \
