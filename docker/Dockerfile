@@ -7,7 +7,7 @@ RUN easy_install \
 	https://trac-hacks.org/svn/awesomeattachmentsplugin/trunk \
 	https://trac-hacks.org/svn/basicthemeeditorplugin/trunk \
 	https://trac-hacks.org/svn/siteuploadplugin/trunk \
-	https://trac-hacks.org/svn/accountmanagerplugin/tags/acct_mgr-0.5.0 \
+	https://trac-hacks.org/svn/accountmanagerplugin/trunk \
 	https://trac-hacks.org/svn/announcerplugin/trunk \
 	https://trac-hacks.org/svn/tagsplugin/trunk
 
